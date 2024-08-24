@@ -3,13 +3,13 @@
 import React, { useEffect } from "react";
 import "../resume/page.css";
 
-// Importing TagCloud package
-import TagCloud from "TagCloud";
+
 
 const Resume = () => {
   // Animation settings for Text Cloud
   useEffect(() => {
     return () => {
+      const TagCloud = require('TagCloud')
       const container = ".tagcloud";
       const texts = [
         "HTML",
