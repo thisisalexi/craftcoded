@@ -27,16 +27,16 @@ const Resume = () => {
   //       "GITHUB",
   //     ];
 
-      const options = {
-        radius: 300,
-        maxSpeed: "normal",
-        initSpeed: "normal",
-        keep: true,
-      };
+  //     const options = {
+  //       radius: 300,
+  //       maxSpeed: "normal",
+  //       initSpeed: "normal",
+  //       keep: true,
+  //     };
 
-      TagCloud(container, texts, options);
-    };
-  }, []);
+  //     TagCloud(container, texts, options);
+  //   };
+  // }, []);
 
   return (
     <>
