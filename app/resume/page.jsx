@@ -6,37 +6,37 @@ import "../resume/page.css";
 
 
 const Resume = () => {
-  // // Animation settings for Text Cloud
-  // useEffect(() => {
-  //   return () => {
-  //     const TagCloud = require('TagCloud')
-  //     const container = ".tagcloud";
-  //     const texts = [
-  //       "HTML",
-  //       "CSS",
-  //       "SASS",
-  //       "JavaScript",
-  //       "React",
-  //       "Vue",
-  //       "Nuxt",
-  //       "NodeJS",
-  //       "Babel",
-  //       "Jquery",
-  //       "ES6",
-  //       "GIT",
-  //       "GITHUB",
-  //     ];
+  // Animation settings for Text Cloud
+  useEffect(() => {
+    return () => {
+      const TagCloud = require('TagCloud')
+      const container = ".tagcloud";
+      const texts = [
+        "HTML",
+        "CSS",
+        "SASS",
+        "JavaScript",
+        "React",
+        "Vue",
+        "Nuxt",
+        "NodeJS",
+        "Babel",
+        "Jquery",
+        "ES6",
+        "GIT",
+        "GITHUB",
+      ];
 
-  //     const options = {
-  //       radius: 300,
-  //       maxSpeed: "normal",
-  //       initSpeed: "normal",
-  //       keep: true,
-  //     };
+      const options = {
+        radius: 300,
+        maxSpeed: "normal",
+        initSpeed: "normal",
+        keep: true,
+      };
 
-  //     TagCloud(container, texts, options);
-  //   };
-  // }, []);
+      TagCloud(container, texts, options);
+    };
+  }, []);
 
   return (
     <>
