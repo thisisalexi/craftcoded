@@ -6,7 +6,7 @@ import "../resume/page.css";
 
 
 const Resume = () => {
-  // Animation settings for Text Cloud
+  // Animation settings for Text Cloud 
   useEffect(() => {
     return () => {
       const TagCloud = require('TagCloud')
